@@ -1,6 +1,6 @@
 /**
  * @name Smanker
- * @author Malte Zoudlik
+ * @author Malte Zoudlik ma.z0u
  * @version 1.0.0
  * @copyright (c) 2019
  */

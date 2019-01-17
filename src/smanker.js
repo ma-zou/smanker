@@ -1,3 +1,10 @@
+/**
+ * @name Smanker
+ * @author Malte Zoudlik
+ * @version 1.0.0
+ * @copyright (c) 2019
+ */
+
 var Smanker = function(selector, topOffset) {
     var linkElements = (!selector || typeof selector == "undefined") ? document.querySelectorAll('a[href^="#"]') : document.querySelectorAll(selector),
         offset = (!topOffset || typeof topOffset == "undefined") ? 0 : topOffset,
@@ -35,7 +42,4 @@ var Smanker = function(selector, topOffset) {
             };
         animateScroll();
     }
-}
-window.onload = function() {
-    var smk = new Smanker();
 }

@@ -1,7 +1,7 @@
 /**
  * @name Smanker
  * @author Malte Zoudlik ma.z0u
- * @version 1.0.0
+ * @version 1.0.1
  * @copyright (c) 2019
  */
 
@@ -38,6 +38,7 @@ var Smanker = function(selector, topOffset) {
                 var val = steps;
 
                 document.documentElement.scrollTop += val;
+                document.body.scrollTop += val;
                 if (currentTime < duration) timer = setTimeout(animateScroll, 15);
             };
         animateScroll();
